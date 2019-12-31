@@ -5,7 +5,6 @@ import random
 from datetime import datetime
 import ticket
 
-
 class Checkout:
     def __init__(self, master):
         self.master = master
