@@ -101,6 +101,7 @@ class Ticket:
         self.adult.set(0)
         self.senior.set(0)
 
+	
     def go_to_cart(self):
         self.master.destroy()
         root = Tk()
